@@ -14,13 +14,29 @@ function result(){
             img.setAttribute('src', '')
     }else{
           if(F.checked){
+            if(calc>60){
+                
+                img.setAttribute('src', './imagens/idosa.jfif')
+                
+            }else if(calc >13){
+                img.setAttribute('src', './imagens/mulher.jfif')
+            }else{
+                img.setAttribute('src', './imagens/criancaF.jfif')
+            }
             res.innerHTML = `Você é uma mulher de ${calc} anos`
-            img.setAttribute('src', './imagens/mulher.jfif')
             alterar.style.backgroundColor='#ff007f'
             
-        }else if(M.checked){
+        }
+        else if(M.checked){
+            if(calc>60){
+                img.setAttribute('src', './imagens/idoso.jpg    ')
+            }else if(calc>13){
+                img.setAttribute('src', './imagens/homem.jfif')
+            }else{
+                img.setAttribute('src', './imagens/criancaM.jfif')
+            }
             res.innerHTML = `Você é um homem de ${calc} anos`
-            img.setAttribute('src', './imagens/homem.jfif')
+            
             alterar.style.backgroundColor='rgb(18, 86, 138)'
         } else{
             res.innerHTML = "Preencha os campos corretamente"

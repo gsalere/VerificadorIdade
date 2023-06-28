@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(18, 86, 138);
+}
+
+main{
+    
+    padding: 20px;
+    color: #ffffff;
+}
+
+main h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.hora{
+    background-color: rgb(191, 191, 191);
+    color: black;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(2, 2, 59);
+    margin-top: 30px;
+    min-height: 50%;
+    min-width: 500px;
+    max-width: 1200px;
+   
+}
+
+.year{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+}
+
+.gender{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+p{
+    line-height: 1.5em;
+    font-size: 1.2em;
+    padding: 7px;
+}
+
+.btn{
+    width: 25%;
+    font-weight: bolder;
+    background-color: rgb(18, 86, 138);
+    color: #fff;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background .25s ease-in-out;
+    
+}
+
+.btn:hover{
+    background-color: #3e7bcb;
+}
+
+
+h1{
+    text-align: center;
+}
+
+label{
+    cursor: pointer;
+}
